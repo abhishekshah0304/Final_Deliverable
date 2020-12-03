@@ -1,7 +1,7 @@
 from Deliverable_Final.onlinepayment import MobilePayment
 from Deliverable_Final.onlinepayment import OnlinePayment
 
-def test_creditcardnumber():
+def test_creditcardnumber():   # Test the credit card number is correct
     creditcard_number = [
                 5455789478554125,
                 7894587463214587,
@@ -13,7 +13,7 @@ def test_creditcardnumber():
     for creditnumber in creditcard_number:
         assert payment_method.VerifyCardNumber(creditnumber) == True  #Credit card number should be verified as valid
 
-def test_expdate():
+def test_expdate():  
     exp_date = [
         '2/23',
         '3/11',
