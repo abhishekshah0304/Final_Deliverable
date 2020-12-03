@@ -18,5 +18,8 @@ class take_out:
 
 class delivery:
 
-    def VerifyDeliverySelection(self, customerselection):
-        return "Delivery"
+    def VerifyDeliverySelection(self, customerselection,driverinfo):
+        driver_name = ""
+        driver_number = ""
+        driver_info = driver_name + driver_name
+        return "Delivery" + driver_info
